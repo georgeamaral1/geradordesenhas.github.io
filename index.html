@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login+</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+    <script src="script.js"></script>
+    </head>
+
+<body>
+
+
+    <div id="main">
+        <h1>Gerador de senhas seguras</h1>
+        <h3>Algumas de nossas funcionalidades:</h3>
+
+            <ul>
+                <li><p>Aqui você pode criar uma senha que contenha caracteres especiais, números e letras maiúsculas e minúsculas.</li>
+                <li><p>Pode também estar validando para verificar o nível de segurança desta</li>
+                <li><p>As senhas seguras devem atender os requisitos minimos, sendo eles: ter 12 digitos, ter letras maiúsculas, minúsculas, números e caracteres especiais.</p></li>
+            </ul>
+
+
+        <button class="button" type="button" onclick="generatePassword()">Gerar Senha</button>
+        <input class="input" type="text" id="password" readonly>
+        <button class="button" type="button" onclick="validatePassword()">Validar Senha</button>
+        <p id="message"></p>
+        <input class="input" type id="newpassword">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+</body>
+
+</html>

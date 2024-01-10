@@ -1,0 +1,111 @@
+body {
+    background-color: #1e1b1b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    border: solid rgb(212, 99, 99);
+}
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    background-image: url(particles.css);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+
+img {
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+
+
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button[type="button"] {
+    background-color: #942d2d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+
+div {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+button[type="button"] {
+    /* outras propriedades */
+    user-select: none;
+    
+}
+
+input[type="text"] {
+    /* outras propriedades */
+    user-select: text;
+    
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+/*#body {
+        background-image: url("miles.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }*/
+
+
+    
